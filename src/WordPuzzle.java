@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class WordPuzzle {
 	public static void solvePuzzle(int gridRows, int gridColumns, char[][] grid, MyHashTable<String> H, int maxlength,
-			String enhance) 
+			String enhance) {
 		// puzzle solve starts
 		int wordCount = 0;
 		for (int i = 0; i < gridRows; i++) {
